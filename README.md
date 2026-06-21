@@ -8,7 +8,7 @@ Reumatoïde artritis (RA) is een chronische auto-immuunziekte die vooral veel vo
 # Methode
 Om te kijken naar een verschil in genexpressie, zijn monsters uit het gewrichtslijmvlies bij 4 mensen met RA en 4 gezonde mensen (controle) vergeleken. Deze mensen hebben een leeftijd tussen de 15 en 66 jaar en zijn van het vrouwelijk geslacht. Voor dit onderzoek is R (4.6.0) (Download R-4.6.0 For Windows.  The R-project For Statistical Computing., z.d.) gebruikt en voor het downloaden van packages is Biocmanager (1.30.27) (Bioconductor - Install, z.d.) gebruikt, daarnaast zijn de volgende packages gebruikt: Rsubread (2.26.0) (Rsubread, z.d.-b), Rsamtools (2.28.0) (RSAmTools, z.d.), dplyr (1.2.1) (A Grammar Of Data Manipulation, z.d.), readr (2.2.0) (Readr Package - RDocumentation, z.d.), DESeq2 (1.52.0) (Thelovelab, z.d.), KEGGREST (1.52.2) (KEGGREST, z.d.) pathview (1.52.0) (Datapplab, z.d.), goseq (1.64.0) (Federicomarini, z.d.) en GO.db (3.23.1) (GO.DB, z.d.).
 
-Voor de eerste stappen van de analyse, zijn de reads eerst gemapt. Voor het mappen is als referentiegenoom het humane genoom (GRCh38.P14) gebruikt van NCBI (Homo Sapiens Genome Assembly GRCh38.p14, z.d.). Hierna wordt het genoom geïndexeerd en aligned (script 1). Vervolgens is er een countmatrix gemaakt, het gtf bestand hiervoor is ook van NCBI gedownload (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) (Script 2). Waarna een volcano plot is gemaakt om de statistisch significante genen die differentieel tot expressie komen te visualiseren na het analyseren (script 3). 
+Voor de eerste stappen van de analyse, zijn de reads eerst gemapt. Voor het mappen is als referentiegenoom het humane genoom (GRCh38.P14) gebruikt van NCBI (Homo Sapiens Genome Assembly GRCh38.p14, z.d.). Hierna wordt het genoom geïndexeerd en aligned ([Script 1](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus%201.R)) . Vervolgens is er een countmatrix gemaakt, het gtf bestand hiervoor is ook van NCBI gedownload (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) (Script 2). Waarna een volcano plot is gemaakt om de statistisch significante genen die differentieel tot expressie komen te visualiseren na het analyseren (script 3). 
 
 Daarna is een Gene Ontologie (GO) analyse uitgevoerd om te bepalen welke biologische processen zijn betrokken met de verandering in genexpressie. Na het observeren van de GO-analyse is gekozen te kijken naar de algemene RA pathway (hsa05323) gezien veel van de GO-termen uit de GO-analyse hier een connectie mee hebben. Ook is er meer verdiept in de T-cel synthese (hsa04660).
 
@@ -17,6 +17,23 @@ Daarna is een Gene Ontologie (GO) analyse uitgevoerd om te bepalen welke biologi
 </p>
 
 # Resultaten
+
+<p align="center">
+  <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/GO analyse.png" alt="GO analyse.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/hsa04660.pathview.png" alt="hsa04660.pathview.png" width="600"/>
+</p>
+
 
 # Conclusie
 
