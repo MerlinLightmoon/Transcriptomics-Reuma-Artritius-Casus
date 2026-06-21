@@ -15,24 +15,31 @@ Daarna is een Gene Ontologie (GO) analyse uitgevoerd om te bepalen welke biologi
 <p align="center">
   <img src="Assets/Workflow.png" alt="Workflow.png" width="600"/>
 </p>
+Figuur 1: De visuële weergave van de workflow van de toegepaste methodes. Waar data is verkregen dat is bemonsterd van 8 vrouwen (4 gezond, 4 met RA) tussen de leeftijd van 15 tot 67 jaar. Eerst worden deze reads gemapped, waarna een count matrix wordt gemaakt voor de statistische analyse. Vervolgens worden van de significante resultaten uit de statistische analyse (p < 0.05 en een fold change van < -1 en > 1) een volcano plot gemaakt. Hierna wordt ook een GO-analyse gedaan met visualisatie en worden 2 pathways gevisualiseerd (hsa05232 & hsa04660)
 
 ## Resultaten
+Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonden mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Na de analyse zijn de reads gevisualiseerd met een volcanoplot. Hierna is ook een GO-analyse uitgevoerd en gevisualiseerd en 2 pathways weergegeven. 
+Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, die wordt gevolgd met de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekend dat deze genen (p < 0.05), minder worden afgeschreven bij de vrouwen met RA.
 
 <p align="center">
   <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
 </p>
+Figuur 2: Een volcano plot die de genen met een p waarde van < 0.05 en een fold change van < -1 en > 1 weergeeft. Hier zijn de -log2p-value genen in het rood weergegeven, de log2FC genen in het groen en de niet statistisch significante genen in het grijs grijs.
 
 <p align="center">
   <img src="Assets/GO analyse.png" alt="GO analyse.png" width="600"/>
 </p>
+Figuur 3: Plot van de GO analyse, waar de top 10 Enriched Gene Ontology-termen zijn weergegeven van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2).
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
 </p>
+Figuur 4: De algemene KEGG-pathway van RA (KEGG PATHWAY: Rheumatoid Arthritis - Homo Sapiens (Human), z.d.).
 
 <p align="center">
   <img src="Assets/hsa04660.pathview.png" alt="hsa04660.pathview.png" width="600"/>
 </p>
+Figuur 5: De KEGG-pathway van T-Cell synthese (KEGG PATHWAY: T Cell Receptor Signaling Pathway - Homo Sapiens (Human), z.d.).
 
 
 ## Conclusie
@@ -53,6 +60,10 @@ Federicomarini. (z.d.). GitHub - federicomarini/goseq. GitHub. https://github.co
 GO.DB. (z.d.). Bioconductor. https://bioconductor.org/packages/release/data/annotation/html/GO.db.html
 
 Homo sapiens genome assembly GRCh38.p14. (z.d.). NCBI. https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
+
+KEGG PATHWAY: Rheumatoid arthritis - Homo sapiens (human). (z.d.). https://www.kegg.jp/kegg-bin/show_pathway?hsa05323 
+
+KEGG PATHWAY: T cell receptor signaling pathway - Homo sapiens (human). (z.d.). https://www.kegg.jp/pathway/hsa04660
 
 KEGGREST. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/KEGGREST.html
 
