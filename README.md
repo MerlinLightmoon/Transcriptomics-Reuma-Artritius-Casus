@@ -54,36 +54,34 @@ Figuur 5: De KEGG-pathway van T-Cell receptor signaling, waarin met rood de gene
 Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonden mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Uit de resultaten is gekomen dat veel genen die significant meer/minder tot expressie komen met het imuunsysteem te maken hebben. Door de verhoogde expressie van genen voor de synthese van B- & T-Cellen, worden er meer B- & T-Cellen aangemaakt, wat voor meer klachten zou kunnen zorgen (Hamza, 2012).
 
 ## Bronnen
-A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
+* A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
 
-Hamza, N. (2012). Analysis of B cell selection in autoimmune diseases. The University Of Groningen Research Portal. https://research.rug.nl/en/publications/analysis-of-b-cell-selection-in-autoimmune-diseases/
+* Hamza, N. (2012). Analysis of B cell selection in autoimmune diseases. The University Of Groningen Research Portal. https://research.rug.nl/en/publications/analysis-of-b-cell-selection-in-autoimmune-diseases/
 
-Aletaha, D., & Smolen, J. S. (2018). Diagnosis and Management of Rheumatoid Arthritis. JAMA, 320(13), 1360. https://doi.org/10.1001/jama.2018.13103
+* Aletaha, D., & Smolen, J. S. (2018). Diagnosis and Management of Rheumatoid Arthritis. JAMA, 320(13), 1360. https://doi.org/10.1001/jama.2018.13103
 
-Bioconductor - Install. (z.d.). https://bioconductor.org/install/
+* Bioconductor - Install. (z.d.). https://bioconductor.org/install/
 
-Datapplab. (z.d.). GitHub - datapplab/pathview: pathway based data integration and visualization. GitHub. https://github.com/datapplab/pathview
+* Datapplab. (z.d.). GitHub - datapplab/pathview: pathway based data integration and visualization. GitHub. https://github.com/datapplab/pathview
 
-Download R-4.6.0 for Windows.  The R-project for statistical computing. (z.d.). https://cran.r-project.org/bin/windows/base/
+* Download R-4.6.0 for Windows.  The R-project for statistical computing. (z.d.). https://cran.r-project.org/bin/windows/base/
 
-Federicomarini. (z.d.). GitHub - federicomarini/goseq. GitHub. https://github.com/federicomarini/goseq
+* Federicomarini. (z.d.). GitHub - federicomarini/goseq. GitHub. https://github.com/federicomarini/goseq
 
-GO.DB. (z.d.). Bioconductor. https://bioconductor.org/packages/release/data/annotation/html/GO.db.html
+* GO.DB. (z.d.). Bioconductor. https://bioconductor.org/packages/release/data/annotation/html/GO.db.html
 
-Homo sapiens genome assembly GRCh38.p14. (z.d.). NCBI. https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
+* Homo sapiens genome assembly GRCh38.p14. (z.d.). NCBI. https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
 
-KEGG PATHWAY: Rheumatoid arthritis - Homo sapiens (human). (z.d.). https://www.kegg.jp/kegg-bin/show_pathway?hsa05323 
+* KEGG PATHWAY: Rheumatoid arthritis - Homo sapiens (human). (z.d.). https://www.kegg.jp/kegg-bin/show_pathway?hsa05323 
 
-KEGG PATHWAY: T cell receptor signaling pathway - Homo sapiens (human). (z.d.). https://www.kegg.jp/pathway/hsa04660
+* KEGG PATHWAY: T cell receptor signaling pathway - Homo sapiens (human). (z.d.). https://www.kegg.jp/pathway/hsa04660
 
-KEGGREST. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/KEGGREST.html
+* KEGGREST. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/KEGGREST.html
 
-Majithia, V., & Geraci, S. A. (2007). Rheumatoid Arthritis: Diagnosis and Management. The American Journal Of Medicine, 120(11), 936–939. 
+* Majithia, V., & Geraci, S. A. (2007). Rheumatoid Arthritis: Diagnosis and Management. The American Journal Of Medicine, 120(11), 936–939. https://doi.org/10.1016/j.amjmed.2007.04.005
 
-https://doi.org/10.1016/j.amjmed.2007.04.005
+* readr package - RDocumentation. (z.d.). https://www.rdocumentation.org/packages/readr/versions/2.1.5
 
-readr package - RDocumentation. (z.d.). https://www.rdocumentation.org/packages/readr/versions/2.1.5
+* RSAmTools. (z.d.). Bioconductor. https://www.bioconductor.org/packages/release/bioc/html/Rsamtools.html
 
-RSAmTools. (z.d.). Bioconductor. https://www.bioconductor.org/packages/release/bioc/html/Rsamtools.html
-
-Rsubread. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/Rsubread.html
+* Rsubread. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/Rsubread.html
