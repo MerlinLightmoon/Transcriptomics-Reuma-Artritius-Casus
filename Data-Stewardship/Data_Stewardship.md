@@ -1,0 +1,1 @@
+Het beheren van de data is belangrijk voor het onderzoek. Hierdoor wordt het onderzoek beter reproduceerbaar en leesbaar voor de lezer. De data en s
