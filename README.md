@@ -19,12 +19,15 @@ Figuur 1: De visuële weergave van de workflow van de toegepaste methodes. Waar 
 
 ## Resultaten
 Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonden mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Na de analyse zijn de reads gevisualiseerd met een volcanoplot. Hierna is ook een GO-analyse uitgevoerd en gevisualiseerd en 2 pathways weergegeven. 
+
 Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, die wordt gevolgd met de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekend dat deze genen (p < 0.05), minder worden afgeschreven bij de vrouwen met RA.
 
 <p align="center">
   <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
 </p>
 Figuur 2: Een volcano plot die de genen met een p waarde van < 0.05 en een fold change van < -1 en > 1 weergeeft. Hier zijn de -log2p-value genen in het rood weergegeven, de log2FC genen in het groen en de niet statistisch significante genen in het grijs grijs.
+
+
 
 <p align="center">
   <img src="Assets/GO analyse.png" alt="GO analyse.png" width="600"/>
