@@ -34,7 +34,7 @@ De plot van de GO-analyse geeft de top 10 enriched Gene Ontology-termen weer van
 </p>
 Figuur 3: Plot van de GO-analyse, waar de top 10 enriched Gene Ontology-termen zijn weergegeven van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2).
 
-In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die niet meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en bloedvaten veel minder tot expressie komen dan bij gezonde mensen. 
+In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die niet meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
@@ -51,8 +51,12 @@ Figuur 5: De KEGG-pathway van T-Cell receptor signaling, waarin met rood de gene
 
 ## Conclusie
 
+Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonden mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Uit de resultaten is gekomen dat veel genen die significant meer/minder tot expressie komen met het imuunsysteem te maken hebben. Door de verhoogde expressie van genen voor de synthese van B- & T-Cellen, worden er meer B- & T-Cellen aangemaakt, wat voor meer klachten zou kunnen zorgen (Hamza, 2012).
+
 ## Bronnen
 A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
+
+Hamza, N. (2012). Analysis of B cell selection in autoimmune diseases. The University Of Groningen Research Portal. https://research.rug.nl/en/publications/analysis-of-b-cell-selection-in-autoimmune-diseases/
 
 Aletaha, D., & Smolen, J. S. (2018). Diagnosis and Management of Rheumatoid Arthritis. JAMA, 320(13), 1360. https://doi.org/10.1001/jama.2018.13103
 
