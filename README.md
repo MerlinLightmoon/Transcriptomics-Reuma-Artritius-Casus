@@ -18,6 +18,23 @@ Daarna is een Gene Ontologie (GO) analyse uitgevoerd om te bepalen welke biologi
 
 # Resultaten
 
+<p align="center">
+  <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/GO analyse.png" alt="GO analyse.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/hsa04660.pathview.png" alt="hsa04660.pathview.png" width="600"/>
+</p>
+
+
 # Conclusie
 
 # Bronnen
