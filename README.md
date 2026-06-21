@@ -12,6 +12,9 @@ Voor de eerste stappen van de analyse, zijn de reads eerst gemapt. Voor het mapp
 
 Daarna is een Gene Ontologie (GO) analyse uitgevoerd om te bepalen welke biologische processen zijn betrokken met de verandering in genexpressie. Na het observeren van de GO-analyse is gekozen te kijken naar de algemene RA pathway (hsa05323) gezien veel van de GO-termen uit de GO-analyse hier een connectie mee hebben. Ook is er meer verdiept in de T-cel synthese (hsa04660).
 
+![flowschema](.Assests/Workflow.png) 
+<a id="Fig1">Figuur1:</a> 
+
 # Resultaten
 
 # Conclusie
