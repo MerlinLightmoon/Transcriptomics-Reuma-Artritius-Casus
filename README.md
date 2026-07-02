@@ -20,12 +20,16 @@ Figuur 1: De visuele weergave van de workflow van de toegepaste methodes. Waar d
 ## Resultaten
 Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonde mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Na de analyse zijn de reads gevisualiseerd met een volcano plot. Hierna is ook een GO-analyse uitgevoerd en gevisualiseerd en 2 pathways weergegeven. 
 
+### Volcano Plot
+
 Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA-patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, dat wordt gevolgd door de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekent dat deze genen (p < 0.05) minder worden afgeschreven bij de vrouwen met RA.
 
 <p align="center">
   <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
 </p>
 Figuur 2: Een volcano plot die de genen met een p-waarde van < 0.05 en een fold change van < -1 en > 1 weergeeft. Hier zijn de -log2p-value genen in het rood weergegeven, de log2FC genen in het groen en de niet statistisch significante genen in het grijs grijs.
+
+### GO-analyse
 
 De plot van de GO-analyse geeft de top 10 enriched Gene Ontology-termen weer van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2) (figuur 3). Door de top 10 GO-termen is te zien dat de meeste biologische processen te maken hebben met het immuunsysteem. Dat het een logische connectie maakt met RA, aangezien het een auto-immuunziekte is.
 
@@ -34,12 +38,16 @@ De plot van de GO-analyse geeft de top 10 enriched Gene Ontology-termen weer van
 </p>
 Figuur 3: Plot van de GO-analyse, waar de top 10 enriched Gene Ontology-termen zijn weergegeven van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2).
 
+### KEGG Pathway RA
+
 In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die niet meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
 </p>
 Figuur 4: De algemene KEGG-pathway van RA, waarin met rood de genen worden weergegeven die meer tot expressie komen en in groen de genen die minder tot expressie komen. (KEGG PATHWAY: Rheumatoid Arthritis - Homo Sapiens (Human), z.d.).
+
+### KEGG Pathway T-Cell receptor signaling
 
 In figuur 5 is de KEGG-pathway van T-Cell receptor signaling te zien. Wat hier vooral wordt weergegeven, is dat de T-cellereceptorroute wel wordt geactiveerd, maar vervolgens later wordt afgeremd. 
 
