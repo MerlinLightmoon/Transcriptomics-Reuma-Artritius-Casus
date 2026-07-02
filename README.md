@@ -2,8 +2,11 @@
 
 ## Inleiding
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte die ontstekingen veroorzaakt in het synovium (gewrichtsslijmvlies) . De ziekte komt vooral voor bij oudere vrouwen en zorgt voor pijn in de gewrichten, gepaard met stijfheid en vermoeidheid. De oorzaken van de ziekte zijn nog onbekend, al lijken er verbindingen te zijn met genetische- en omgevingsfactoren (Tobón et al., 2010).
+
 Onderzoek waarbij synoviaal weefsel van RA-patiënten is vergeleken met dat van osteoartrose-patiënten laat zien dat T-cellen, B-cellen en monocyten in dit weefsel actief bijdragen aan een ontstekingsreactie, door verhoogde expressie van chemokine-genen (Zhang et al., 2022). Dit laat zien dat de ziekteactiviteit van RA niet alleen het resultaat is van gewrichtslijtage, maar wordt gedreven door een celtype-specifiek ontstekingsprogramma. Transcriptomics-analyse maakt het mogelijk om deze celtype-specifieke ontstekingsprocessen op genniveau in kaart te brengen, doordat verschillen in genexpressie tussen ziek en gezond weefsel zichtbaar worden. 
+
 Welke specifieke genen en pathways hierbij betrokken zijn, is echter nog niet volledig in kaart gebracht. Om te onderzoeken welke genen meer/minder tot expressie komen en wat dit voor invloed kan hebben op de ziekteactiviteit van RA is de volgende hoofdvraag met deelvragen opgesteld: Welke genen komen meer/minder tot expressie bij mensen met RA en welke invloed heeft dit op het immuunsysteem/ziekteproces van RA?;
+
 Welke genen komen significant meer/minder tot expressie bij mensen met RA?
 Welke gen-ontologie termen zijn het sterkst verrijkt onder de genen die significant meer/minder tot expressie komen bij mensen met RA? 
 Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?
