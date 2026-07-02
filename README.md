@@ -1,9 +1,12 @@
 # Transcriptomics Casus Reuma Artritius
 
 ## Inleiding
-Reumatoïde artritis (RA) is een chronische auto-immuunziekte die vooral veel voorkomt bij vrouwen op oudere leeftijd. De ziekte veroorzaakt ontstekingen in de gewrichten, die ontstaan doordat het lichaam het slijmvlies in de gewrichten aanvalt. Dit zorgt voor pijn in de gewrichten, gepaard met stijfheid en vermoeidheid. RA is ongeneesbaar, maar wel te behandelen met reumaremmers en pijnstillers (Majithia & Geraci, 2007).
-
-5 op de 1000 mensen hebben RA (Aletaha & Smolen, 2018). Desondanks zijn de precieze oorzaken van de ziekte nog onbekend, al lijken onderzoeken aan te duiden dat er verbindingen zijn met genetische- en omgevingsfactoren (Tobón et al., 2010). Daarom is het belangrijk om te onderzoeken welke genen meer of minder tot expressie komen bij mensen met RA. In dit onderzoek wordt met transcriptomics bekeken welke genen in het gewrichtslijmvlies van mensen met RA meer of minder tot expressie komen.  
+Reumatoïde artritis (RA) is een chronische auto-immuunziekte die ontstekingen veroorzaakt in het synovium (gewrichtsslijmvlies) . De ziekte komt vooral voor bij oudere vrouwen en zorgt voor pijn in de gewrichten, gepaard met stijfheid en vermoeidheid. De oorzaken van de ziekte zijn nog onbekend, al lijken er verbindingen te zijn met genetische- en omgevingsfactoren (Tobón et al., 2010).
+Onderzoek waarbij synoviaal weefsel van RA-patiënten is vergeleken met dat van osteoartrose-patiënten laat zien dat T-cellen, B-cellen en monocyten in dit weefsel actief bijdragen aan een ontstekingsreactie, door verhoogde expressie van chemokine-genen (Zhang et al., 2022). Dit laat zien dat de ziekteactiviteit van RA niet alleen het resultaat is van gewrichtslijtage, maar wordt gedreven door een celtype-specifiek ontstekingsprogramma. Transcriptomics-analyse maakt het mogelijk om deze celtype-specifieke ontstekingsprocessen op genniveau in kaart te brengen, doordat verschillen in genexpressie tussen ziek en gezond weefsel zichtbaar worden. 
+Welke specifieke genen en pathways hierbij betrokken zijn, is echter nog niet volledig in kaart gebracht. Om te onderzoeken welke genen meer/minder tot expressie komen en wat dit voor invloed kan hebben op de ziekteactiviteit van RA is de volgende hoofdvraag met deelvragen opgesteld: Welke genen komen meer/minder tot expressie bij mensen met RA en welke invloed heeft dit op het immuunsysteem/ziekteproces van RA?;
+Welke genen komen significant meer/minder tot expressie bij mensen met RA?
+Welke gen-ontologie termen zijn het sterkst verrijkt onder de genen die significant meer/minder tot expressie komen bij mensen met RA? 
+Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?
 
 ## Methode
 Om te kijken naar een verschil in genexpressie, zijn monsters uit het gewrichtslijmvlies bij 4 mensen met RA en 4 gezonde mensen (controle) vergeleken. Deze mensen hebben een leeftijd tussen de 15 en 66 jaar en zijn van het vrouwelijk geslacht. Voor dit onderzoek is R (4.6.0) (Download R-4.6.0 For Windows.  The R-project For Statistical Computing., z.d.) gebruikt en voor het downloaden van packages is Biocmanager (1.30.27) (Bioconductor - Install, z.d.) gebruikt, daarnaast zijn de volgende packages gebruikt: Rsubread (2.26.0) (Rsubread, z.d.-b), Rsamtools (2.28.0) (RSAmTools, z.d.), dplyr (1.2.1) (A Grammar Of Data Manipulation, z.d.), readr (2.2.0) (Readr Package - RDocumentation, z.d.), DESeq2 (1.52.0) (Thelovelab, z.d.), KEGGREST (1.52.2) (KEGGREST, z.d.) pathview (1.52.0) (Datapplab, z.d.), goseq (1.64.0) (Federicomarini, z.d.) en GO.db (3.23.1) (GO.DB, z.d.).
@@ -93,3 +96,5 @@ Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezo
 * RSAmTools. (z.d.). Bioconductor. https://www.bioconductor.org/packages/release/bioc/html/Rsamtools.html
 
 * Rsubread. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/Rsubread.html
+
+* Zhang, R., Jin, Y., Chang, C., Xu, L., Bian, Y., Shen, Y., Sun, Y., Sun, S., Schrodi, S. J., Guo, S., & He, D. (2022). RNA-seq and Network Analysis Reveal Unique Chemokine Activity Signatures in the Synovial Tissue of Patients With Rheumatoid Arthritis. Frontiers in Medicine, 9, 799440. https://doi.org/10.3389/fmed.2022.799440
