@@ -1,4 +1,4 @@
-# Transcriptomics Casus Reuma Artritius
+# Verhoogde T- en B-celreceptorsignalering in synoviaal weefsel van vrouwen met reumatoïde artritis: een transcriptomische analyse
 
 ## Inleiding
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte die ontstekingen veroorzaakt in het synovium (gewrichtsslijmvlies) . De ziekte komt vooral voor bij oudere vrouwen en zorgt voor pijn in de gewrichten, gepaard met stijfheid en vermoeidheid. De oorzaken van de ziekte zijn nog onbekend, al lijken er verbindingen te zijn met genetische- en omgevingsfactoren (Tobón et al., 2010).
