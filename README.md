@@ -64,7 +64,13 @@ Figuur 5: De KEGG-pathway van T-Cell receptor signaling, waarin met rood de gene
 
 ## Conclusie
 
-Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonden mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Uit de resultaten is gekomen dat veel genen die significant meer/minder tot expressie komen met het imuunsysteem te maken hebben. Door de verhoogde expressie van genen voor de synthese van B- & T-Cellen, worden er meer B- & T-Cellen aangemaakt, wat voor meer klachten zou kunnen zorgen (Hamza, 2012).
+Uit de differentiële genexpressie-analyse kwamen 4572 genen naar voren die significant meer of minder tot expressie kwamen bij vrouwen met RA vergeleken met gezonde controles (p < 0,05, |log2FC| > 1), met de sterkste veranderingen bij ANKRD30BL, MT-ND6, SLC9A3R2 en ZNF598, die alle verlaagd tot expressie kwamen bij RA-patiënten.
+
+De GO-analyse liet zien dat de sterkst verrijkte gen-ontologietermen onder deze genen vrijwel allemaal gerelateerd zijn aan immuunsysteemprocessen, wat aansluit bij het auto-immune karakter van RA.
+
+Binnen de RA-pathway kwamen met name genen behorend tot de T-celreceptor- en B-celreceptor-signaleringsroutes sterker tot expressie bij RA-patiënten. Nadere analyse van de T-celreceptorpathway liet zien dat deze route weliswaar wordt geactiveerd, maar verderop in de cascade wordt afgeremd, wat duidt op een verstoorde regulatie van T-celactivatie bij RA.
+
+Samengenomen wijzen deze bevindingen erop dat bij vrouwen met RA vooral genen betrokken bij T- en B-celgemedieerde immuunrespons afwijkend tot expressie komen. Zoals Hamza (2012) beschrijft, kan een verhoogde activiteit van T- en B-celreceptor-signalering bijdragen aan een verhoogde aanmaak van deze celtypen, wat een mogelijke verklaring biedt voor de chronische ontstekingsreactie die kenmerkend is voor RA. Hierbij moet echter worden opgemerkt dat het mediane leeftijdsverschil van 28 jaar tussen de RA- en controlegroep een deel van de gevonden immuungerelateerde expressieverschillen kan verklaren, onafhankelijk van RA-status, aangezien immuunfunctie ook met veroudering verandert. Dit maakt de gevonden associaties minder eenduidig en onderstreept het belang van een grotere, leeftijdsgematchte steekproef in vervolgonderzoek.
 
 ## Bronnen
 * A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
