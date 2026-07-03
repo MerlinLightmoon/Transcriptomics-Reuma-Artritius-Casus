@@ -50,7 +50,7 @@ Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezo
 
 ### Volcano Plot
 
-Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA-patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, dat wordt gevolgd door de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekent dat deze genen (p < 0.05) minder worden afgelezen bij de vrouwen met RA.
+Voor de deelvraag: 'Welke genen komen significant meer/minder tot expressie bij mensen met RA?' is een volcano plot gemaakt. De volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA-patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, dat wordt gevolgd door de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekent dat deze genen (p < 0.05) minder worden afgelezen bij de vrouwen met RA.
 
 <p align="center">
   <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
@@ -59,7 +59,7 @@ Figuur 2: Een volcano plot die de genen met een p-waarde van < 0.05 en een fold 
 
 ### GO-analyse
 
-De plot van de GO-analyse geeft de top 10 enriched Gene Ontology-termen weer van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2) (figuur 3). Door de top 10 GO-termen is te zien dat de meeste biologische processen te maken hebben met het immuunsysteem. Dat het een logische connectie maakt met RA, aangezien het een auto-immuunziekte is.
+Voor de deelvraag: 'Welke gen-ontologie termen zijn het sterkst verrijkt onder de genen die significant meer/minder tot expressie komen bij mensen met RA?' is een GO-analyse uitgevoerd. De plot van de GO-analyse geeft de top 10 enriched Gene Ontology-termen weer van de significante genen uit figuur 2 (p < 0,05 en een fold change van < -2 en > 2) (figuur 3). Door de top 10 GO-termen is te zien dat de meeste biologische processen te maken hebben met het immuunsysteem. Dat het een logische connectie maakt met RA, aangezien het een auto-immuunziekte is.
 
 <p align="center">
   <img src="Assets/GO analyse.png" alt="GO analyse.png" width="600"/>
@@ -68,14 +68,14 @@ Figuur 3: Plot van de GO-analyse, waar de top 10 enriched Gene Ontology-termen z
 
 ### KEGG Pathway RA
 
-In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
+Voor de deelvraag: 'Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?' is naar de algemene RA KEGG pathway en de T-Cell receptor signaling KEGG pathway gekeken. In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
 </p>
 Figuur 4: De algemene KEGG-pathway van RA, waarin met rood de genen worden weergegeven die meer tot expressie komen en in groen de genen die minder tot expressie komen. (KEGG PATHWAY: Rheumatoid Arthritis - Homo Sapiens (Human), z.d.).
 
-### KEGG Pathway T-Cell receptor signaling
+#### KEGG Pathway T-Cell receptor signaling
 
 In figuur 5 is de KEGG-pathway van T-Cell receptor signaling te zien. Wat hier vooral wordt weergegeven, is dat de T-cellereceptorroute wel wordt geactiveerd, maar vervolgens later wordt afgeremd. 
 
