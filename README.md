@@ -11,11 +11,32 @@ Welke specifieke genen en pathways hierbij betrokken zijn, is echter nog niet vo
 * Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?
 
 ## Methode
-Om te kijken naar een verschil in genexpressie, zijn monsters uit het gewrichtslijmvlies bij 4 mensen met RA en 4 gezonde mensen (controle) vergeleken. Deze mensen hebben een leeftijd tussen de 15 en 66 jaar en zijn van het vrouwelijk geslacht. Voor dit onderzoek is R (4.6.0) (Download R-4.6.0 For Windows.  The R-project For Statistical Computing., z.d.) gebruikt en voor het downloaden van packages is Biocmanager (1.30.27) (Bioconductor - Install, z.d.) gebruikt, daarnaast zijn de volgende packages gebruikt: Rsubread (2.26.0) (Rsubread, z.d.-b), Rsamtools (2.28.0) (RSAmTools, z.d.), dplyr (1.2.1) (A Grammar Of Data Manipulation, z.d.), readr (2.2.0) (Readr Package - RDocumentation, z.d.), DESeq2 (1.52.0) (Thelovelab, z.d.), KEGGREST (1.52.2) (KEGGREST, z.d.) pathview (1.52.0) (Datapplab, z.d.), goseq (1.64.0) (Federicomarini, z.d.) en GO.db (3.23.1) (GO.DB, z.d.).
+### Dataset en studiepopulatie
+Om te kijken naar een verschil in genexpressie zijn monsters uit het gewrichtsslijmvlies van 4 mensen met RA en 4 gezonde mensen (controle) vergeleken. Deze dataset is afkomstig uit het onderzoek van Platzer (2019). Alle deelnemers waren van het vrouwelijk geslacht; de controlegroep was 15-42 jaar oud, de RA-groep 54-66 jaar (tabel 1).
 
-Voor de eerste stappen van de analyse, zijn de reads eerst gemapt. Voor het mappen is als referentiegenoom het humane genoom (GRCh38.P14) gebruikt van NCBI (Homo Sapiens Genome Assembly GRCh38.p14, z.d.). Hierna wordt het genoom geïndexeerd en aligned ([Script 1](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_1.R)) . Vervolgens is er een countmatrix gemaakt, het gtf bestand hiervoor is ook van NCBI gedownload (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) ([Script 2](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_2.R)). Waarna een volcano plot is gemaakt om de statistisch significante genen die differentieel tot expressie komen te visualiseren na het analyseren ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)). 
+Tabel 1: Dataset van 2 groepen, Controle en RA. Waarvan elke groep bestaat uit 4 samples; de controlegroep was 15-42 jaar oud, de RA-groep 54-66 jaar. 
+| SampleName | Leeftijd | Groep   |
+|------------|----------|---------|
+| SRR4785819 | 31       | Control |
+| SRR4785820 | 15       | Control |
+| SRR4785828 | 31       | Control |
+| SRR4785831 | 42       | Control |
+| SRR4785979 | 54       | RA      |
+| SRR4785980 | 66       | RA      |
+| SRR4785986 | 60       | RA      |
+| SRR4785988 | 59       | RA      |
 
-Daarna is een gene-ontologie (GO) -analyse uitgevoerd om te bepalen welke biologische processen betrokken zijn bij de verandering in genexpressie. Na het observeren van de GO-analyse is gekozen om te kijken naar de algemene RA pathway (hsa05323), aangezien veel van de GO-termen uit de GO-analyse hier een connectie mee hebben. Ook is er meer verdiept in de T-Cell receptor signaling pathway (hsa04660).
+### Software en packages
+Voor dit onderzoek is R (4.6.0) gebruikt (Download R-4.6.0 For Windows. The R-project For Statistical Computing., z.d.), en voor het installeren van packages BiocManager (1.30.27) (Bioconductor - Install, z.d.). De volgende packages zijn gebruikt: Rsubread (2.26.0) (Rsubread, z.d.-b) voor mapping en het maken van de countmatrix, Rsamtools (2.28.0) (RSAmTools, z.d.) voor het verwerken van de alignment-bestanden, DESeq2 (1.52.0) (Thelovelab, z.d.) en EnhancedVolcano (Kevinblighe, z.d.) voor de differentiële genexpressie-analyse, goseq (1.64.0) (Federicomarini, z.d.) en GO.db (3.23.1) (GO.DB, z.d.) voor de GO-analyse, en KEGGREST (1.52.2) (KEGGREST, z.d.) en pathview (1.52.0) (Datapplab, z.d.) voor de pathway-visualisatie. dplyr (1.2.1) (A Grammar Of Data Manipulation, z.d.) en readr (2.2.0) (Readr Package - RDocumentation, z.d.) zijn gebruikt voor algemene datamanipulatie.
+
+### Mapping en countmatrix
+De reads zijn gemapt met Rsubread, met het humane genoom (GRCh38.p14, NCBI) als referentiegenoom. Het genoom is geïndexeerd en de reads zijn aligned met Rsubread en Rsamtools ([Script 1](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_1.R)). Vervolgens is een countmatrix gemaakt met Rsubread, aan de hand van een GTF-bestand van hetzelfde NCBI-genoom (Homo Sapiens Genome Assembly GRCh38.p14, z.d.) ([Script 2](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_2.R)).
+
+### Differentiële genexpressie-analyse
+Met DESeq2 is een differentiële genexpressie-analyse uitgevoerd. Genen werden als significant differentieel tot expressie beschouwd bij p < 0,05 en een log2 fold change van < -1 of > 1. De resultaten zijn gevisualiseerd in een volcano plot met EnhancedVolcano ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)).
+
+### GO- en pathway-analyse
+Om te bepalen welke biologische processen betrokken zijn bij de gevonden expressieverschillen, is een gene-ontologie (GO)-analyse uitgevoerd met goseq en dplyr. Op basis van de GO-resultaten, waarvan een groot deel gerelateerd was aan RA, is vervolgens de algemene RA-pathway (hsa05323) bekeken, met extra verdieping op de T-celreceptor-signaleringspathway (hsa04660). Beide pathways zijn gevisualiseerd met KEGGREST en pathview ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)).
 
 <p align="center">
   <img src="Assets/Workflow.png" alt="Workflow.png" width="600"/>
@@ -97,7 +118,11 @@ Samengenomen wijzen deze bevindingen erop dat bij vrouwen met RA vooral genen be
 
 * KEGGREST. (z.d.). Bioconductor. https://bioconductor.org/packages/release/bioc/html/KEGGREST.html
 
+* Kevinblighe. (z.d.). GitHub - kevinblighe/EnhancedVolcano: Publication-ready volcano plots with enhanced colouring and labeling. GitHub. https://github.com/kevinblighe/EnhancedVolcano
+
 * Majithia, V., & Geraci, S. A. (2007). Rheumatoid Arthritis: Diagnosis and Management. The American Journal Of Medicine, 120(11), 936–939. https://doi.org/10.1016/j.amjmed.2007.04.005
+
+* Platzer, A., Nussbaumer, T., Karonitsch, T., Smolen, J. S., & Aletaha, D. (2019). Analysis of gene expression in rheumatoid arthritis and related conditions offers insights into sex-bias, gene biotypes and co-expression patterns. PLoS ONE, 14(7), e0219698. https://doi.org/10.1371/journal.pone.0219698
 
 * readr package - RDocumentation. (z.d.). https://www.rdocumentation.org/packages/readr/versions/2.1.5
 
