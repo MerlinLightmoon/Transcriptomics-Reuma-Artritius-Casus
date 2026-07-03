@@ -68,7 +68,7 @@ Figuur 3: Plot van de GO-analyse, waar de top 10 enriched Gene Ontology-termen z
 
 ### KEGG Pathway RA
 
-Voor de deelvraag: 'Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?' is naar de algemene RA KEGG pathway en de T-Cell receptor signaling KEGG pathway gekeken. In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
+Voor de deelvraag: 'Welke genen binnen de RA- en T-celreceptor-signaleringspathway komen meer/minder tot expressie, en welke rol spelen deze in het ziekteproces?' is naar de algemene RA KEGG pathway en de T-Cell receptor signaling KEGG pathway gekeken. In figuur 4 is de algemene RA KEGG-pathway te zien (KEGG PATHWAY: Rheumatoid Arthritis - Homo Sapiens (Human), z.d.). Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
@@ -77,7 +77,7 @@ Figuur 4: De algemene KEGG-pathway van RA, waarin met rood de genen worden weerg
 
 #### KEGG Pathway T-Cell receptor signaling
 
-In figuur 5 is de KEGG-pathway van T-Cell receptor signaling te zien. Wat hier vooral wordt weergegeven, is dat de T-cellereceptorroute wel wordt geactiveerd, maar vervolgens later wordt afgeremd. 
+In figuur 5 is de KEGG-pathway van T-Cell receptor signaling te zien (KEGG PATHWAY: T Cell Receptor Signaling Pathway - Homo Sapiens (Human), z.d.). Wat hier vooral wordt weergegeven, is dat de T-cellereceptorroute wel wordt geactiveerd, maar vervolgens later wordt afgeremd. 
 
 <p align="center">
   <img src="Assets/hsa04660.pathview.png" alt="hsa04660.pathview.png" width="600"/>
