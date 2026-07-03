@@ -36,19 +36,21 @@ De reads zijn gemapt met Rsubread, met het humane genoom (GRCh38.p14, NCBI) als 
 Met DESeq2 is een differentiële genexpressie-analyse uitgevoerd. Genen werden als significant differentieel tot expressie beschouwd bij p < 0,05 en een log2 fold change van < -1 of > 1. De resultaten zijn gevisualiseerd in een volcano plot met EnhancedVolcano ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)).
 
 ### GO- en pathway-analyse
-Om te bepalen welke biologische processen betrokken zijn bij de gevonden expressieverschillen, is een gene-ontologie (GO)-analyse uitgevoerd met goseq en dplyr. Op basis van de GO-resultaten, waarvan een groot deel gerelateerd was aan RA, is vervolgens de algemene RA-pathway (hsa05323) bekeken, met extra verdieping op de T-celreceptor-signaleringspathway (hsa04660). Beide pathways zijn gevisualiseerd met KEGGREST en pathview ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)).
+Om te bepalen welke biologische processen betrokken zijn bij de gevonden expressieverschillen, is een gene-ontologie (GO)-analyse uitgevoerd met goseq en dplyr. Voor de GO-analyse is een strengere grenswaarde aangehouden (log2 fold change van < -2 of > 2, p < 0,05) dan bij de differentiële genexpressie-analyse, om een kleinere maar sterker veranderde genenset aan de verrijkingsanalyse mee te geven. Op basis van de GO-resultaten, waarvan een groot deel gerelateerd was aan RA, is vervolgens de algemene RA-pathway (hsa05323) bekeken, met extra verdieping op de T-celreceptor-signaleringspathway (hsa04660). Beide pathways zijn gevisualiseerd met KEGGREST en pathview ([Script 3](https://github.com/MerlinLightmoon/Transcriptomics-Reuma-Artritius-Casus/blob/main/Scripts/Casus_3.R)).
+
+### Workflow
 
 <p align="center">
   <img src="Assets/Workflow.png" alt="Workflow.png" width="600"/>
 </p>
-Figuur 1: De visuele weergave van de workflow van de toegepaste methodes. Waar data is verkregen dat is bemonsterd van 8 vrouwen (4 gezond, 4 met RA) tussen de leeftijd van 15 tot 67 jaar. Eerst worden deze reads gemapped, waarna een count matrix wordt gemaakt voor de statistische analyse. Vervolgens wordt van de significante resultaten uit de statistische analyse (p < 0.05 en een fold change van < -1 en > 1) een volcano plot gemaakt. Hierna wordt ook een GO-analyse gedaan met visualisatie en worden 2 pathways gevisualiseerd (hsa05232 & hsa04660)
+Figuur 1: De visuele weergave van de workflow van de toegepaste methodes. Waar data is verkregen dat is bemonsterd van 8 vrouwen (4 gezond, 4 met RA) tussen de leeftijd van 15 tot 67 jaar. Eerst worden deze reads gemapped, waarna een count matrix wordt gemaakt voor de statistische analyse. Vervolgens wordt van de significante resultaten uit de statistische analyse (p < 0.05 en een fold change van < -1 en > 1) een volcano plot gemaakt. Hierna wordt ook een GO-analyse gedaan met visualisatie en worden 2 pathways gevisualiseerd (hsa05323 & hsa04660)
 
 ## Resultaten
 Om te meten wat voor verschil in genexpressie er is tussen mensen met RA en gezonde mensen, zijn er monsters uit het gewrichtslijmvlies bij 4 vrouwen met RA en 4 gezonde vrouwen (controle) vergeleken. Na de analyse zijn de reads gevisualiseerd met een volcano plot. Hierna is ook een GO-analyse uitgevoerd en gevisualiseerd en 2 pathways weergegeven. 
 
 ### Volcano Plot
 
-Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA-patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, dat wordt gevolgd door de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekent dat deze genen (p < 0.05) minder worden afgeschreven bij de vrouwen met RA.
+Het volcano plot geeft 4572 statistisch significante genen weer die meer/minder tot expressie komen bij RA-patiënten ten opzichte van gezonde personen (p < 0.05 en een fold change van < -1 en > 1) (figuur 2). Het gen met de hoogste fold change en de laagste p-waarde is ANKRD30bl, dat wordt gevolgd door de genen: MT-ND6, SLC9A3R2 en ZNF598. Dit betekent dat deze genen (p < 0.05) minder worden afgelezen bij de vrouwen met RA.
 
 <p align="center">
   <img src="Assets/Volcanoplot.png" alt="Volcanoplot.png" width="600"/>
@@ -66,7 +68,7 @@ Figuur 3: Plot van de GO-analyse, waar de top 10 enriched Gene Ontology-termen z
 
 ### KEGG Pathway RA
 
-In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die niet meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
+In figuur 4 is de algemene RA KEGG-pathway te zien. Hier zijn de genen die minder tot expressie komen in het groen aangegeven en de genen die meer tot expressie komen in het rood. Hier is vooral te zien dat de genen in verband met de T-cell receptor signaling pathway en B-Cell receptor signaling pathway meer tot expressie komen dan bij gezonde mensen. 
 
 <p align="center">
   <img src="Assets/hsa05323.pathview.png" alt="hsa05323.pathview.png" width="600"/>
