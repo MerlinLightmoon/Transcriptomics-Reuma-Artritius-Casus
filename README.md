@@ -94,11 +94,9 @@ Binnen de RA-pathway kwamen met name genen behorend tot de T-celreceptor- en B-c
 Samengenomen wijzen deze bevindingen erop dat bij vrouwen met RA vooral genen betrokken bij T- en B-celgemedieerde immuunrespons afwijkend tot expressie komen. Zoals Hamza (2012) beschrijft, kan een verhoogde activiteit van T- en B-celreceptor-signalering bijdragen aan een verhoogde aanmaak van deze celtypen, wat een mogelijke verklaring biedt voor de chronische ontstekingsreactie die kenmerkend is voor RA. Hierbij moet echter worden opgemerkt dat het mediane leeftijdsverschil van 28 jaar tussen de RA- en controlegroep een deel van de gevonden immuungerelateerde expressieverschillen kan verklaren, onafhankelijk van RA-status, aangezien immuunfunctie ook met veroudering verandert. Dit maakt de gevonden associaties minder eenduidig en onderstreept het belang van een grotere, leeftijdsgematchte steekproef in vervolgonderzoek.
 
 ## Bronnen
-* A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
-
-* Hamza, N. (2012). Analysis of B cell selection in autoimmune diseases. The University Of Groningen Research Portal. https://research.rug.nl/en/publications/analysis-of-b-cell-selection-in-autoimmune-diseases/
-
 * Aletaha, D., & Smolen, J. S. (2018). Diagnosis and Management of Rheumatoid Arthritis. JAMA, 320(13), 1360. https://doi.org/10.1001/jama.2018.13103
+
+* A Grammar of Data Manipulation. (z.d.). https://dplyr.tidyverse.org/
 
 * Bioconductor - Install. (z.d.). https://bioconductor.org/install/
 
@@ -109,6 +107,8 @@ Samengenomen wijzen deze bevindingen erop dat bij vrouwen met RA vooral genen be
 * Federicomarini. (z.d.). GitHub - federicomarini/goseq. GitHub. https://github.com/federicomarini/goseq
 
 * GO.DB. (z.d.). Bioconductor. https://bioconductor.org/packages/release/data/annotation/html/GO.db.html
+
+* Hamza, N. (2012). Analysis of B cell selection in autoimmune diseases. The University Of Groningen Research Portal. https://research.rug.nl/en/publications/analysis-of-b-cell-selection-in-autoimmune-diseases/
 
 * Homo sapiens genome assembly GRCh38.p14. (z.d.). NCBI. https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
 
